@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Serif+Display:wght@300;400&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@500;600&display=swap');
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp8965856.jpg);
+    font-family: Poppins, sans-serif;
+    padding: 40px;
+  }
+  
+h1 {
+    font-family: Italiana, serif;
+    font-size: 40px;
+    background: linear-gradient(to right, #98E9C6, #E998BB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+h2 {
+    color: #98E9C6;
+    font-size: 30px;
+  }
+.established {
+    font-family: Noto;
+    font-weight: 600;
+    font-style: italic;
+    color: #98E9C6;
+    /* color: #6237CF; */
+  }
+  
+h1, h2, p {
+    text-align: center;
+  }
+  
+.menu {
+    width: 80%;
+    background:  linear-gradient(to right, #ec77ab 0%, #7873f5 50%);
+    /* background-color: rgba(255, 180, 239, 0.5); */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    color: #fcfdfd;
+  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-25px;
+    width: 50px;
+    height: auto;
+  }
+
+hr {
+    border-style: dotted;
+    /* border-spacing: 0.5em; */
+    height: 2px;
+    background-color: #98E9C6;
+    border-color: #98E9C6;
+  }
+  
+.bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+.price {
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+footer {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+  }
+  
+.address {
+    margin-bottom: 5px;
+  }
+  
+a {
+    color: black;
+  }
+  
+a:visited {
+    color: #fcfdfd;
+  }
+  
+a:hover {
+    color: #ec77ab;
+  }
+  
+a:active {
+    color: #6237CF;
+  }
