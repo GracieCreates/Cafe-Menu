@@ -5,7 +5,10 @@ body {
     font-family: Poppins, sans-serif;
     padding: 40px;
   }
-  
+.menu
+{
+  box-shadow: #98E9C6;
+}
 h1 {
     font-family: Italiana, serif;
     font-size: 40px;
@@ -36,6 +39,7 @@ h1, h2, p {
     width: 80%;
     background:  linear-gradient(to right, #ec77ab 0%, #7873f5 50%);
     /* background-color: rgba(255, 180, 239, 0.5); */
+    box-shadow: 0 0 60px 0 #e4cf70;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
